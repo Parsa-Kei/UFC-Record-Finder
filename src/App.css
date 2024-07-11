@@ -1,38 +1,77 @@
+body {
+    background-image: url('./ufc.jpg'); /* Path to your image file */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    
+    display: flex;
+    justify-content: center; 
+    /* align-items: center;     */
+    /* height: 100vh;            */
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .inp {
+    margin-top: 10px;
+  border-radius: 15px; /* Adjust the value as per your preference to control the roundness */
+  padding: 10px 15px;  /* Optional: Adjust padding as needed for better appearance */
+  border: 1px solid #020202;
   }
-  to {
-    transform: rotate(360deg);
+
+  .dokme {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;    /* Set the width of the button to 150 pixels */
+    height: 40px;
+    border-radius: 15px; /* Adjust the value as per your preference to control the roundness */
+    padding: 10px 15px;  /* Optional: Adjust padding as needed for better appearance */
+    border: 1px solid #020202;
   }
-}
+
+  .card {
+    /* margin-top: 200px;
+    margin-right: 300px;
+    text-align:center;
+    background-color: aliceblue;
+    border: 5px solid #020202;
+    border-radius: 40px;
+    border-color:crimson;
+    padding: auto;
+    width: 1000px;
+    height: 500px; */
+  }
+
+  .ax1 {
+    margin-right: 600px;
+
+    width: 100px;
+    height: 100px
+  }
+
+  .ax2 {
+    width: 100px;
+    height: 100px
+  }
+
+  .info {
+    margin-top: 200px;
+    margin-right: 300px;
+    text-align:center;
+    background-color: aliceblue;
+    border: 5px solid #020202;
+    border-radius: 40px;
+    border-color:crimson;
+    padding: auto;
+    width: 1000px;
+    height: 500px;
+  }
+
+  .Date {
+    color: brown;
+    font-size: x-large;
+    font-style: normal;
+  }
